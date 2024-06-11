@@ -1,0 +1,112 @@
+body {
+    background-color: #d3d3d387 !important;
+    color: white;
+}
+
+p{
+    margin-bottom: 0px !important;
+}
+
+/* .main-container {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d3d3d387;
+    min-height: 100vh;
+} */
+
+.common-class {
+    min-width: 60vw;
+    max-width: 60vw;
+    background-color: rgb(209, 207, 207) !important;
+    color: black !important;
+    border: 1px solid black !important;
+    word-wrap: break-word;
+    margin: auto !important;
+}
+
+.common-input-class {
+    min-width: 60vw;
+    max-width: 60vw;
+    color: black !important;
+    word-wrap: break-word;
+    margin: auto !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: black !important;
+    background-color: rgb(209, 207, 207) !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: black !important;
+    background-color: rgb(221, 218, 218) !important;
+}
+
+.customInput {
+    border: 1px solid black !important;
+}
+
+.m-100 {
+    /* position: absolute !important;
+    inset: 0px auto auto 0px !important;
+    transform: translate3d(0px, 40px, 0px) !important; */
+    min-width: 100% !important;
+    word-break: break-all !important;
+}
+
+.dropdown-toggle {
+    white-space: wrap !important;
+}
+
+.card {
+    height: 50% !important;
+}
+
+.mt-30 {
+    margin-top: 10%;
+}
+
+.pad-1 {
+    padding: 6px 0;
+}
+
+.btn:active {
+    border-color: transparent !important;
+}
+
+input {
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    letter-spacing: 0.5px !important;
+}
+
+input::placeholder {
+    font-weight: 400 !important;
+    color: black !important;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 .25rem transparent !important;
+}
+
+/* .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+} */
+
+
+
+.noSpinButtons::-webkit-outer-spin-button,
+.noSpinButtons::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

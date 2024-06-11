@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+// import Test4 from './components/Test4';
+import Test5 from './components/Test5';
+import Test6 from './components/Test6';
+import ReadFile from "./components/ReadFile"
+import Test2 from './components/Test2';
+import Test3 from './components/Test3';
+import Test7 from './components/Test7';
+import Test8 from './components/Test8';
+import Test9 from './components/Test9';
+import Update1 from './components/Update1';
+import Update2 from './components/Update2';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <ReadFile /> */}
+      {/* <Test2 /> */}
+      {/* <Test3 /> */}
+      {/* <Test4 /> */}
+      {/* <Test5 /> */}
+      {/* <Test6 /> */}
+      {/* <Test7 /> */}
+      {/* <Test8 /> */}
+      {/* <Test9 /> */}
+      {/* < Update1 /> */}
+      {<Update2 />}
+    </>
   );
 }
 
